@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:33:59.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 YaBrowser/22.1.0.2500 Yowser/2.5 Safari/537.36" etag="f0OiB4yzlLFAqlieziux" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:16:40.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 YaBrowser/22.1.0.2500 Yowser/2.5 Safari/537.36" etag="majbhRet4m8nINrxkQNZ" version="16.6.6" type="github">
   <diagram id="PFAnDH3gtrbqB2gCXGx1" name="Page-1">
-    <mxGraphModel dx="2108" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1315" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9HsZCRTBpWa72TdeDrr3-60" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;gradientColor=#ffffff;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="402.5" width="515" height="252.5" as="geometry" />
+          <mxGeometry x="550" y="402.5" width="515" height="252.5" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.05;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=default;exitPerimeter=0;" edge="1" parent="1" target="9HsZCRTBpWa72TdeDrr3-6" source="9HsZCRTBpWa72TdeDrr3-18">
           <mxGeometry relative="1" as="geometry">
@@ -146,8 +146,8 @@
         <mxCell id="9HsZCRTBpWa72TdeDrr3-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="797.5" y="580" width="20" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="9HsZCRTBpWa72TdeDrr3-42" value="Простановка тега ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1166.5" y="220" width="130" height="20" as="geometry" />
+        <mxCell id="9HsZCRTBpWa72TdeDrr3-42" value="Простановка тега" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1171.5" y="220" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-49" value="manual testing" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="817.5" y="405" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9HsZCRTBpWa72TdeDrr3-79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=16;" edge="1" parent="1" source="9HsZCRTBpWa72TdeDrr3-48" target="9HsZCRTBpWa72TdeDrr3-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-48" value="smoke tests on ci/cd" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="587.5" y="605" width="160" height="20" as="geometry" />
@@ -200,6 +203,9 @@
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-78" value="Разработчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="652.5" y="275" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9HsZCRTBpWa72TdeDrr3-80" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;fontSize=16;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
