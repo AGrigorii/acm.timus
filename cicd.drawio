@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T08:49:23.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2486 Yowser/2.5 Safari/537.36" etag="kLYm9an045CLbFwN_iSY" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T08:59:49.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2486 Yowser/2.5 Safari/537.36" etag="DCL9gqy3OSIEiQ6yP5tJ" version="17.2.4" type="github">
   <diagram id="PFAnDH3gtrbqB2gCXGx1" name="Page-1">
     <mxGraphModel dx="1831" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,11 +42,8 @@
         <mxCell id="9HsZCRTBpWa72TdeDrr3-10" value="prod" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1637.5" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9HsZCRTBpWa72TdeDrr3-12" value="- На той же железке, где&amp;nbsp; poc&lt;br&gt;- Отдельные домены&lt;br&gt;- Изолированная выкатка фич разраба&lt;br&gt;- Выкатывается из Pipline&lt;br&gt;- Нельзя задеплоить руками&lt;br&gt;- Всегда те же самые версии, что и на проде" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="881.5" y="660" width="270" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="9HsZCRTBpWa72TdeDrr3-13" value="- Тестировщики не деплоят &lt;br&gt;в окружение разработчиков, деплоят сюда" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="589" y="110" width="260" height="30" as="geometry" />
+        <mxCell id="9HsZCRTBpWa72TdeDrr3-12" value="- На той же железке, где&amp;nbsp; poc&lt;br&gt;- Отдельные домены&lt;br&gt;- Изолированная выкатка фич разраба&lt;br&gt;- Выкатывается из Pipline&lt;br&gt;- Нельзя задеплоить руками&lt;br&gt;- Актуальные версии с master веток (preprod)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="882.5" y="660" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-14" value="Разработчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="170" y="310" width="30" height="60" as="geometry" />
@@ -90,16 +87,16 @@
           <mxGeometry x="51" y="30" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-24" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="966.5" y="225" width="100" height="195" as="geometry" />
+          <mxGeometry x="1000" y="227.5" width="100" height="232.5" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="9HsZCRTBpWa72TdeDrr3-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="46" y="195" as="sourcePoint" />
+            <mxPoint x="46" y="232.5" as="sourcePoint" />
             <mxPoint x="46" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-27" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="717.5" y="270" width="160" height="280" as="geometry" />
+          <mxGeometry x="710" y="265" width="172.5" height="280" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="9HsZCRTBpWa72TdeDrr3-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -116,11 +113,14 @@
         <mxCell id="9HsZCRTBpWa72TdeDrr3-48" value="smoke tests on ci/cd" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" parent="9HsZCRTBpWa72TdeDrr3-27" vertex="1">
           <mxGeometry x="-147.5" y="225" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9HsZCRTBpWa72TdeDrr3-49" value="manual testing" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="9HsZCRTBpWa72TdeDrr3-27" vertex="1">
+          <mxGeometry x="72.5" y="140" width="90" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-31" value="test" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="797.5" y="425" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-38" value="Тестировщик и ревьюер" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="849" y="40" width="150" height="20" as="geometry" />
+          <mxGeometry x="937.5" y="200" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-40" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1387.5" y="295" width="110" height="280" as="geometry" />
@@ -158,12 +158,9 @@
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1236.5" y="510" as="sourcePoint" />
-            <mxPoint x="1236.5" y="230" as="targetPoint" />
+            <mxPoint x="1231" y="510" as="sourcePoint" />
+            <mxPoint x="1231" y="230" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="9HsZCRTBpWa72TdeDrr3-49" value="manual testing" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="817.5" y="405" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9HsZCRTBpWa72TdeDrr3-26" value="approve&amp;nbsp; MR&amp;nbsp; + MANUAL TEST OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="910" y="220" width="210" height="20" as="geometry" />
@@ -205,9 +202,6 @@
         <mxCell id="9HsZCRTBpWa72TdeDrr3-78" value="Разработчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="652.5" y="275" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9HsZCRTBpWa72TdeDrr3-80" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;fontSize=16;fillColor=none;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1080" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="XiR5g9vbo00-qdgf8-iP-4" value="RED TESTS" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="589" y="780" width="80" height="20" as="geometry" />
         </mxCell>
@@ -219,6 +213,15 @@
         </mxCell>
         <mxCell id="XiR5g9vbo00-qdgf8-iP-7" value="GREEN TESTS" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="937.5" y="430" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XiR5g9vbo00-qdgf8-iP-9" value="- Тестировщики не деплоят&lt;br&gt;в окружение разработчиков, деплоят сюда" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="710" y="85" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiR5g9vbo00-qdgf8-iP-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9HsZCRTBpWa72TdeDrr3-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="395" as="sourcePoint" />
+            <mxPoint x="900" y="115" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
